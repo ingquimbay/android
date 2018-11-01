@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="carlitos.fibonacci.com.fibonacci.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/fibonacci" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0,1"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/fibbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/ts1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TimeStamp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        app:srcCompat="@drawable/factorial" />
+
+    <EditText
+        android:id="@+id/editNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="type a number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/facbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/ts2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TimeStamp" />
+
+    <Button
+        android:id="@+id/buttonPaises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paises" />
+
+
+</LinearLayout>

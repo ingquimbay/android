@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">taller CM</string>
+    <string name="adivina_text">Adivina un numero entre 0 y 50!</string>
+    <string name="ok_text">Verifica</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369538931804",
+    "firebase_url": "https://elementoapp-50765.firebaseio.com",
+    "project_id": "elementoapp-50765",
+    "storage_bucket": "elementoapp-50765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369538931804:android:e7a09a1d6efde774",
+        "android_client_info": {
+          "package_name": "com.grupo.elementoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369538931804-v9dbdba307v4m9nhjsv0radfkr4hu126.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grupo.elementoapp",
+            "certificate_hash": "4efdbd102bb4db5ed56f91371d53563f4849546c"
+          }
+        },
+        {
+          "client_id": "369538931804-gagjd5mdevvuro5r3kvf7oae6bba4gu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTThMUKmwQW0oINSPuahnGebQS0CGFixw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369538931804-gagjd5mdevvuro5r3kvf7oae6bba4gu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

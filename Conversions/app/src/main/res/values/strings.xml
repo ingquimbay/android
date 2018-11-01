@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Conversions</string>
+    <string name="convert_fromtxt">Convert from</string>
+    <string name="default_teasptxt">1.0 teasp</string>
+    <string name="default_cupstxt">0.0208 cups</string>
+    <string name="default_tablesptxt">0.3333 tbsp</string>
+    <string name="default_oztxt">0.1666 oz</string>
+    <string name="default_kgtxt">0.0057 kg</string>
+    <string name="deafult_lbstxt">0.0125 lbs</string>
+    <string name="default_galtxt">0.0013 gal</string>
+    <string name="default_qttxt">0.0052 qt</string>
+    <string name="default_lttxt">0.0049 lt</string>
+    <string name="default_mltxt">4.9289 ml</string>
+    <string name="default_gmtxt">5.6875 gm</string>
+    <string name="default_pinttxt">0.0104 pint</string>
+</resources>

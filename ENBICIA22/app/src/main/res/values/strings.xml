@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">EnBICIa2</string>
+    <string name="title_activity_ruta_trayecto">Mapa</string>
+    <string name="title_activity_user__profile">Nombre de Usuario</string>
+
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="error_invalid_email">La dirección de correo electrónico es invalida</string>
+    <string name="error_invalid_password">La contraeña es muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="continua">O continúa con:</string>
+    <string name="forget_password">¿Olvidaste la contraseña?</string>
+    <string name="name">Nombre Completo</string>
+    <string name="title_activity_routes">Map</string>
+    <string name="title_activity_menu">menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_search_friends">SearchFriends</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_tourdetail">Map</string>
+    <string name="facebook_app_id">207653939771200</string>
+    <!-- [BEGIN Activity Routes Strings] -->
+    <string name="location_source">Punto de partida</string>
+    <string name="location_target">Punto de llegada</string>
+    <string name="start_route">Iniciar ruta</string>
+    <!-- [END Activity Routes Strings] -->
+
+    <!-- [BEGIN Activity Mark Strings] -->
+    <string name="define_location"> Indique el lugar</string>
+    <string name="name_location"> Nombre marcador</string>
+    <!-- [END Activity Mark Strings] -->
+
+    <!--[BEGIN FriendsActivity Strings]-->
+    <string name="buscar_personas">Buscar Personas</string>
+    <string name="eliminar_amigo">Eliminar amigo</string>
+    <!--[END FriendsActivity Strings]-->
+
+    <!--[BEGIN SearchFriendsActivity Strings]-->
+    <string name="agregar_amigo">Agregar amigo</string>
+    <!--[BEGIN SearchFriendsActivity Strings]-->
+
+    <!-- [BEGIN strings_menu] -->
+    <string name="buscar_amigos">Buscar Amigos</string>
+    <string name="configuracion">Configuración</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="grupos">Grupos</string>
+    <string name="programados">Programados</string>
+    <string name="historial">Historial</string>
+    <string name="enrutar">Enrutar</string>
+    <string name="recorridos">Recorridos</string>
+    <string name="comunidad">Comunidad</string>
+    <string name="mensajes">Mensajes</string>
+    <string name="otros">Otros</string>
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+    <string name="planeados">Planeados</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- [END strings_menu] -->
+
+    <!--[BEGIN NOTIFICACIONES]-->
+    <string name="channel_name">enBICIa2_channel</string>
+    <string name="channel_description">Notificaciones aplicación enBICIa2</string>
+    <!--[END NOTIFICACIONES]-->
+
+</resources>

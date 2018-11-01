@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="emailtxt">email</string>
+    <string name="psswdtxt">password</string>
+    <string name="sign_in_txt">sign in</string>
+    <string name="sign_up_txt">sign up</string>
+    <string name="logout_txt">logout</string>
+    <string name="configuration_txt">configuration</string>
+</resources>

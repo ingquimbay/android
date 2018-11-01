@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RangeActivity">
+
+    <TextView
+        android:id="@+id/rangeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el numero maximo a Adivinar"
+        android:textAlignment="center"
+        android:fontFamily="@font/abeat"
+        android:textSize="22sp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/rangeNumber"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:fontFamily="@font/abeat"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numero maximo: 2,147,483,647"
+        android:textSize="12sp"
+        android:layout_gravity="center"/>
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abeat"
+        android:text="Aceptar"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>

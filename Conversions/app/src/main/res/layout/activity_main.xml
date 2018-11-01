@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.conversions.MainActivity">
+
+    <TextView
+        android:id="@+id/convNumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert_fromtxt"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignBaseline="@+id/convNumET"
+        android:layout_alignBottom="@+id/convNumET"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/convNumET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/convNumTV"
+        android:inputType="numberDecimal"
+        android:text="1.0"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/units_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/convNumET"
+        android:textAlignment="center" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/units_spinner"
+        android:background="#afdfff"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:rowCount="6">
+
+        <TextView
+            android:id="@+id/tspTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/default_teasptxt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/cupTV"
+            android:layout_gravity="left|top"
+            android:text="@string/default_cupstxt"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/tbsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/default_tablesptxt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ozTV"
+            android:layout_gravity="left|top"
+            android:text="@string/default_oztxt"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/kgTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/default_kgtxt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/lbs"
+            android:layout_gravity="left|top"
+            android:text="@string/deafult_lbstxt"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/gallonTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/default_galtxt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/quartTV"
+            android:layout_gravity="left|top"
+            android:text="@string/default_qttxt"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/literTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/default_lttxt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/mlTV"
+            android:layout_gravity="left|top"
+            android:text="@string/default_mltxt"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/gmTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/default_gmtxt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/pintTV"
+            android:layout_gravity="left|top"
+            android:text="@string/default_pinttxt"
+            android:textSize="24sp" />
+
+    </GridLayout>
+
+</RelativeLayout>

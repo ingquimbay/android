@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuessActivity">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeat"
+        android:text="@string/adivina_text"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:fontFamily="@font/abeat"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/abeat"
+        android:text="@string/ok_text"/>
+
+    <TextView
+        android:id="@+id/hintTxtvw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/triesTxtvw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ListView
+            android:id="@+id/listTries"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/newRangebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Nuevo Rango"
+        android:fontFamily="@font/abeat"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+</LinearLayout>

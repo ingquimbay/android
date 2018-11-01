@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mapamundi</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapButtonText">Activate Map</string>
+    <string name="see_locationButtonText">See Location</string>
+    <string name="latitudText">Latitud</string>
+    <string name="longitudText">Longitud</string>
+    <string name="altitudText">Altitud</string>
+    <string name="distanciaText">Distancia al Aeropuerto ElDorado[m]</string>
+    <string name="addressText">Enter address</string>
+    <string name="loginText">Login</string>
+    <string name="no_account_Text">No account yet? Create one</string>
+    <string name="create_account_Text">Create Account</string>
+</resources>

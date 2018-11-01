@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "97834775774",
+    "firebase_url": "https://firemap-1a19c.firebaseio.com",
+    "project_id": "firemap-1a19c",
+    "storage_bucket": "firemap-1a19c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97834775774:android:7f462c75e43326a2",
+        "android_client_info": {
+          "package_name": "com.android.firemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97834775774-16k4ajcjcv6pqbl2i4u790msr6lbq855.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.firemap",
+            "certificate_hash": "4efdbd102bb4db5ed56f91371d53563f4849546c"
+          }
+        },
+        {
+          "client_id": "97834775774-3puq94so6bkdggt6su3a22dt3rteqmcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACyjJ8JQQ0J1T73KUPE3bfNPGbaRLA8_8"
+        },
+        {
+          "current_key": "AIzaSyCCSfBIXVkS3cs9VSTU_IiPN_TUvmKpKQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97834775774-3puq94so6bkdggt6su3a22dt3rteqmcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97834775774:android:4377a7b1ae94823e",
+        "android_client_info": {
+          "package_name": "com.carlitos.mapamundi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97834775774-drtv1akiqvh75onpmshg1fqsor456b5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carlitos.mapamundi",
+            "certificate_hash": "4efdbd102bb4db5ed56f91371d53563f4849546c"
+          }
+        },
+        {
+          "client_id": "97834775774-3puq94so6bkdggt6su3a22dt3rteqmcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACyjJ8JQQ0J1T73KUPE3bfNPGbaRLA8_8"
+        },
+        {
+          "current_key": "AIzaSyCCSfBIXVkS3cs9VSTU_IiPN_TUvmKpKQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97834775774-3puq94so6bkdggt6su3a22dt3rteqmcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

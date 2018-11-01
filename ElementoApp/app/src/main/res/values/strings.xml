@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ElementoApp</string>
+    <string name="respuesta_1">Respuesta 1</string>
+    <string name="respuesta_2">Respuesta 2</string>
+    <string name="respuesta_3">Respuesta 3</string>
+    <string name="opcion_1">Opcion 1</string>
+    <string name="opcion_2">Opcion 2</string>
+    <string name="opcion_3">Opcion 3</string>
+    <string name="grupo_elemento_txt">Grupo Elemento</string>
+    <string name="profile_img_txt">profile_img</string>
+    <string name="app_logo">app_logo</string>
+    <string name="perfil_logo_txt">perfil_logo</string>
+    <string name="perfil_usuario_txt">Perfil Usuario</string>
+    <string name="datos_personales_txt">Datos Personales</string>
+
+    <string-array name="tipoDocumentoArray">
+        <item>C.C.</item>
+        <item>C.E.</item>
+        <item>N.I.T.</item>
+        <item>Pasaporte</item>
+    </string-array>
+
+    <string-array name="estadoCivilArray">
+        <item>Soltero(a)</item>
+        <item>Casado(a)</item>
+        <item>Separado(a)</item>
+        <item>Divorciado(a)</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="tipoResidenciaArray">
+        <item>Casa</item>
+        <item>Apartamento</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="estratoArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>

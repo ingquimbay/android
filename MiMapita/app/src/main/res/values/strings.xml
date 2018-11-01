@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mi Mapita</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="lets_go_txt">Let\'s Go</string>
+    <string name="gran_estacion_txt">Gran Estacion</string>
+    <string name="mapa_txt">Mapa</string>
+    <string name="search_txt">search</string>
+</resources>

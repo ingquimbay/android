@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="user_name_text">Username</string>
+    <string-array name="nivelEducativo">
+        <item>Primaria</item>
+        <item>Bachiller</item>
+        <item>Tecnico</item>
+        <item>Profesional</item>
+        <item>Maestria</item>
+        <item>Doctorado</item>
+        <item>Postdoctorado</item>
+    </string-array>
+</resources>
