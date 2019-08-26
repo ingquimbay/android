@@ -1,2 +1,2 @@
 # android
-These are simple projects to learn about android application development.
+These are simple projects to learn android application development.
