@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaisDetalleActivity">
+
+
+    <TextView
+        android:id="@+id/countryTitleTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/oxygen_light"
+        android:hint="Pais"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/capitalTitleTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="86dp"
+        android:fontFamily="@font/oxygen_light"
+        android:text="Capital:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/capitalNameTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:layout_toEndOf="@+id/countryTitleTxtVw"
+        android:fontFamily="@font/oxygen_light"
+        android:hint="Nombre capital"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/intCountryTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/capitalTitleTxtVw"
+        android:layout_marginTop="126dp"
+        android:fontFamily="@font/oxygen_light"
+        android:text="Nombre internacional:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/intCountryNameTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/capitalNameTxtVw"
+        android:layout_alignTop="@+id/intCountryTxtVw"
+        android:fontFamily="@font/oxygen_light"
+        android:hint="Nombre Pais"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/initialsTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/capitalTitleTxtVw"
+        android:layout_marginTop="169dp"
+        android:fontFamily="@font/oxygen_light"
+        android:text="Sigla"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/initialsCountryTxtVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/capitalNameTxtVw"
+        android:layout_alignTop="@+id/initialsTxtVw"
+        android:fontFamily="@font/oxygen_light"
+        android:hint="XX"
+        android:textSize="14sp" />
+</RelativeLayout>

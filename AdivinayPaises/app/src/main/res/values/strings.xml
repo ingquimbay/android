@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Adivina y Paises</string>
+    <string name="ingresaNumeroTxt">Ingresa un numero 0 - 1000</string>
+    <string name="adivina_numero_text">Adivina un numero</string>
+    <string name="verifica_text">verifica</string>
+    <string name="juego_adivinanza_text">Juego de Adivinanza</string>
+    <string name="lista_paises_text">Lista de Paises</string>
+</resources>
